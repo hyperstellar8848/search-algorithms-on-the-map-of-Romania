@@ -8,7 +8,7 @@ graph = {
     "Eforie": [("Hirsova", 86)],
     "Fagaras": [("Sibiu", 99), ("Bucharest", 211)],
     "Giurgiu": [("Bucharest", 90)],
-    "Hirsova": [("Vaslui", 142), ("Urziceni", 98), ("Eforie", 86)],
+    "Hirsova": [("Urziceni", 98), ("Eforie", 86)],
     "Iasi": [("Neamt", 87), ("Vaslui", 92)],
     "Lugoj": [("Timisoara", 111), ("Mehadia", 70)],
     "Mehadia": [("Lugoj", 70), ("Drobeta", 75)],
@@ -18,6 +18,7 @@ graph = {
     "Rimnicu Vilcea": [("Sibiu", 80), ("Pitesti", 97), ("Craiova", 146)],
     "Sibiu": [("Arad", 140), ("Fagaras", 99), ("Rimnicu Vilcea", 80), ("Oradea", 151)],
     "Timisoara": [("Arad", 118), ("Lugoj", 111)],
-    "Urziceni": [("Bucharest", 85), ("Hirsova", 98), ("Vaslui", 142)],
-    "Vaslui": [("Iasi", 92), ("Urziceni", 142), ("Hirsova", 142)],
+    "Urziceni": [("Bucharest", 85), ("Hirsova", 98)],
+    "Vaslui": [("Iasi", 92), ("Urziceni", 142)],
+    "Zerind": [("Oradea", 71), ("Arad", 75)],
 }
