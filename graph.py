@@ -22,3 +22,8 @@ graph = {
     "Vaslui": [("Iasi", 92), ("Urziceni", 142)],
     "Zerind": [("Oradea", 71), ("Arad", 75)],
 }
+
+for node, neighbours in list(graph.items()):
+    for neigh, w in neighbours:
+        if node not in [n for n, _ in graph[neigh]]:
+            graph[neigh].append((node, w))
