@@ -1,6 +1,8 @@
 This project implements and compares several graph‑search algorithms on the classic Romania road map, an undirected weighted graph that models the distances between 20 Romanian cities.  
 The goal is to illustrate how different search algorithms behave in terms of **time**, **nodes expanded**, and **path cost**.
 
+<img src="A%20simplified%20road%20map%20of%20part%20of%20Romania.png" width="500" alt="Simplified road map of Romania">
+
 ## Usage
 
 * Enter the start city.
